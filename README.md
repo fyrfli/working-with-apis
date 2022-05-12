@@ -1,3 +1,4 @@
+
 # My first attempt at working with APIs within Javascript
 
 I have been wanting to try to use a weather API to read the weather for a long time. I've had an OpenWeather API for years and never really used it. Tonight I discovered [WeatherAPI][1] and wanted to give it a test run. I've been working the Javascript [fetch{}][2] API for a few days and thought I'd put some of that knowledge to good use. And here we are.
