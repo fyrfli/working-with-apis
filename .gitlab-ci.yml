@@ -2,7 +2,9 @@ pages:
   stage: deploy
   script:
     - mkdir .public
-    - cp -r public/* .public
+    - cp index.html .public
+    - cp -r styles .public
+    - cp -r scripts .public
     - rm -rf public
     - mv .public public
   artifacts:
