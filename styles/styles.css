@@ -10,10 +10,10 @@ a:any-link {
   text-decoration: dotted underline;
 }
 .header {
-  width: 98vw;
+  width: 80vw;
   max-width: 860px;
   height: 12vh;
-  margin: 1rem auto;
+  margin: 4rem auto;
   display: flex;
   justify-content: space-between;
   font-size: 1.1rem;
@@ -28,11 +28,9 @@ a:any-link {
   max-width: 780px;
   height: auto;
   margin: auto;
-  overflow: scroll;
-  scrollbar-width: none;
 }
 .forecast {
-  display: hidden;
+  display: none;
 }
 .footer {
   width: 60vw;
@@ -42,4 +40,9 @@ a:any-link {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #999;
+}
+@media only screen and (min-width: 980px) {
+  body {
+    font-size: 18px;
+  }
 }
